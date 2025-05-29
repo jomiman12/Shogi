@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+TITLE : 将棋駒／Shogi Pieces
+VERSION : 1.0.0
+TYPE : Assets
+RELEASE : 2024/02/15
+AUTHOR : AlisAlia
+--------------------------------------------------------------------------------
+
+■このアセットパックについて
+・サイズは32x32、48x48、64x64の３種類があります。
+・48x48、64x64に関しては逆さ向きのパターンも用意しています。
+・おまけとして将棋盤が付属します。
+・ゲーム内に使用しても構いませんし、詰将棋などに使用してもいいかもしれません。
+
+■ライセンス
+・個人または商用プロジェクトも自由に使用できます。
+・あなたのゲームに合わせて編集または変更できます。
+・このアセットパックを変更していない状態で再販することはできません。
+・このアセットパックを自分のものとして主張することはできません。
+
+■About this asset pack
+- Three sizes: 32x32, 48x48, and 64x64.
+- Upside down patterns are also available for 48x48 and 64x64.
+- A shogi board is included as a bonus.
+- You may use it in-game, or for "Tsume Shogi", etc.
+
+■License
+You are free to use on personal or commercial projects.
+Can be edited or modified to suit your game.
+You cannot resell this asset pack not even modified.
+You cannot claim this asset pack as yours.

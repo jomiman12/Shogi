@@ -1,25 +1,26 @@
-using Unity.Burst;
+
+using System.Numerics;
 using Unity.Collections;
 using Unity.Mathematics;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
-
 public struct Board
 {
     Square[,] grid;
+
     public Board(int rows, int cols)
     {
-        grid = new Square[rows,cols];
-        for(int i = 0; i < rows; i++)
+        grid = new Square[rows, cols];
+        for (int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < cols; j++)
+            for (int j = 0; j < cols; j++)
             {
-                grid[i,j] = new Square(i,j);
+                grid[i, j] = new Square(i, j);
             }
         }
     }
 
-    public ref Square GetSquare(int row, int col) => ref grid [row,col];
-
+    public ref Square GetSquare(int row, int col) => ref grid[row, col];
 }
 
 public struct Square
@@ -32,6 +33,5 @@ public struct Square
         coor = new int2(x, y);
         piece = null;
     }
-
     public int2 Coor => coor;
 }
